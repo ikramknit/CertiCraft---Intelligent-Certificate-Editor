@@ -1,0 +1,5 @@
+{
+  "name": "CertiCraft - Intelligent Certificate Editor",
+  "description": "Upload a certificate image to automatically extract text using Gemini Vision, edit the details, and regenerate a high-quality digital version.",
+  "requestFramePermissions": []
+}
