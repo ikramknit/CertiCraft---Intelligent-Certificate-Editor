@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .font-serif-display {
+    font-family: 'Playfair Display', serif;
+  }
+  .font-gothic {
+    font-family: 'UnifrakturMaguntia', cursive;
+  }
+}

@@ -3,6 +3,7 @@ import { createRoot } from "react-dom/client";
 import { Upload, FileText, Download, Printer, RefreshCw, Wand2, Loader2, Edit3, Image as ImageIcon } from "lucide-react";
 import { CertificateData, INITIAL_DATA } from "./types";
 import { extractCertificateData } from "./services/geminiService";
+import "./index.css";
 
 const App = () => {
   const [data, setData] = useState<CertificateData>(INITIAL_DATA);
